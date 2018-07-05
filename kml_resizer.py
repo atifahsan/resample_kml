@@ -21,7 +21,6 @@ def get_kml_file_list(path):
     return kml_files
 
 def resize_kml_files(kml_file, factor):
-    output_kml = kml_file[:-4] + ' - Resized' + kml_file[-4:]
     print('Saving {}'.format(output_kml))
     with open(kml_file, "r") as f, open(output_kml,'w') as g:
         count = 0

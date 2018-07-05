@@ -1,6 +1,7 @@
 .vscode
 dist
 build
-.spec
+resample_kml.spec
 kmls
 temp
+__pycache__
