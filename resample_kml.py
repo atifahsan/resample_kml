@@ -32,7 +32,7 @@ def resize_kml_files(kml_file, resize_factor):
     root = tree.getroot()
     doc_node = root.getchildren()
     export_tool = check_export_tool(root)
-    
+
     if export_tool == 'tems':
         placemark = doc_node[0].getchildren()[-1]
         count = 0

@@ -5,3 +5,6 @@ resample_kml.spec
 kmls
 temp
 __pycache__
+resample_kml.bat
+kml resampler/resample_kml.exe
+kml resampler/kmls
